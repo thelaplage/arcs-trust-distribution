@@ -1,0 +1,35 @@
+{
+  "bundle_digest": "sha256:6b043c9c84288ac03bf4830040958d4f69bcc0fa0e122de9e3e9d8eb5f80b264",
+  "bundle_id": "dagr-ops.srs-trust-bundle.production",
+  "bundle_version": "0.2",
+  "issued_at": "2026-09-26T05:06:28Z",
+  "keys": [
+    {
+      "allowed_profiles": [
+        "srs.activity.semantic_issuer_origin_authentication.v0.1"
+      ],
+      "allowed_receipt_classes": [
+        "provenance"
+      ],
+      "institutional_authorization": {
+        "authorization_date": "2026-09-25",
+        "authorization_ref": "IN___SEMANTIC_ORIGIN_TRUST_MEMBERSHIP0_Ratification_Record_v0_1",
+        "authorized_by": "Vega Commons Project, Inc."
+      },
+      "key_id": "countervail.semantic-origin/receipt-signing/2026-09",
+      "not_after": null,
+      "not_before": "2026-09-26T00:00:00Z",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPeW8MkS9MwQlcwrDmO53WM1uYF3cqlmVfGB9/cHTLpE=\n-----END PUBLIC KEY-----\n",
+      "purpose": [
+        "signing",
+        "verification"
+      ],
+      "revocation": {
+        "compromise": false,
+        "revocation_reason": null,
+        "revoked": false,
+        "revoked_at": null
+      }
+    }
+  ]
+}
