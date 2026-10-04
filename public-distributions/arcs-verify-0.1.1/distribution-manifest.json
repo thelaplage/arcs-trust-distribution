@@ -1,0 +1,20 @@
+{
+  "schema": "arcs.verify.public_distribution.v0.1",
+  "distribution_name": "arcs-verify",
+  "distribution_version": "0.1.1",
+  "source_repository": "thelaplage/arcs-verify",
+  "source_commit": "db94b7391f6fd26feff1c384bd5ea6c522643af8",
+  "wheel_file": "arcs_verify-0.1.1-py3-none-any.whl",
+  "wheel_sha256": "b87c5f5e328d99ab9bcfc38899e31efa192a08aba2495805ac7a888cf87f43ec",
+  "supported_publication_profile": "srs.activity.public_publication.v0.1",
+  "distribution_role": "public_transport_copy",
+  "authority_effect": "none",
+  "does_not_establish": [
+    "publication_authority",
+    "issuer_trust",
+    "evidence_standing",
+    "factual_truth"
+  ],
+  "binary_present": false,
+  "publication_authorized": true
+}
