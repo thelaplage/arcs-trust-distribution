@@ -49,8 +49,21 @@ The prepublication candidate manifest used to prepare this publication is not a
 public distribution artifact because it described these locators as
 `prospective_unserved` before the publication act.
 
-Verifier pin for the current acceptance line:
-`arcs-verify@e30d8d634897fbb1ea1c8cd58ae4c4b13e6ff2aa`.
+Verifier pin for the current acceptance line (a commit that resolves in the
+public `thelaplage/arcs-verify` repository):
+`arcs-verify@9e6daefca6e77306691fd288880448194bd28f75`.
+
+Install: `pip install "arcs-verify @ git+https://github.com/thelaplage/arcs-verify@9e6daefca6e77306691fd288880448194bd28f75"`.
+
+The earlier pin `arcs-verify@e30d8d634897fbb1ea1c8cd58ae4c4b13e6ff2aa` named a
+private-development commit. The public `arcs-verify` repository is a fresh
+snapshot that does not contain that history, so that commit did not resolve
+publicly (HTTP 422 from the GitHub commits API, observed 2026-10-09). The earlier
+text remains in the immutable `trust-material-v0.1.0`, `trust-material-v0.1.1` and
+`counterpedia-mcp-live0-trust-v0.1.0` tags, which are not rewritten. The verifier
+bytes at the public pin are not asserted to be identical to the earlier pin.
+A commit in a snapshot repository stays resolvable only while that history is
+not replaced; this is not a tag or release.
 
 Retrieval failure is distinct from retrieved-but-invalid. Public retrieval and
 byte identity establish **trust-material independence**, not production trust
